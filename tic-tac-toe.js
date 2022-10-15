@@ -9,8 +9,8 @@ function start ()
 var statusBox;
 var turn1;
 let turn="X";
-let squares= document.querySelectorAll("#board div");   //document.getelementbyid("board").children --> this is another way to do this by using the children
-var statusBox= document.getElementById("status");
+let squares=document.querySelectorAll("#board div");   //document.getelementbyid("board").children --> this is another way to do this by using the children
+var statusBox=document.getElementById("status");
 
 
 for (let i=0; i<squares.length;i++ )
@@ -60,7 +60,13 @@ for (let i=0; i<squares.length;i++ )
 
     
 }
+var newGame= document.getElementById("game");
+var btn= newGame.getElementsByClassName("btn");
+btn[0].addEventListener("click", function()
+{
+  window.location.reload(true);
+}
 
-
+)
 
 } //closes the entire function
