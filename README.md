@@ -1,3 +1,1 @@
-# info2180-lab3
-# INFO2180 Lab 3 
-This is Lab 3 for Aybarinee Campbell Mendez
+This is a tictactoe game developed using javascript.
